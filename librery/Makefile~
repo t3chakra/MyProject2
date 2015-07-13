@@ -1,0 +1,11 @@
+all:
+	g++ ~/Insight/src/a5-ece650.c -L. -lsat -o ~/Insight/exefiles/a5-ece650 -lpthread
+	g++ ~/Insight/src/a5-ece650_stat.c -L. -lsat -o ~/Insight/exefiles/a5_stat -lpthread -lrt
+	g++ ~/Insight/src/a5-ece650_apr.c -L. -lsat -o ~/Insight/exefiles/a5_apr -lpthread
+	
+clean:
+	rm -rf *o ~/Insight/exefiles/a5-ece650
+	rm -rf *o ~/Insight/exefiles/a5_stat
+	rm -rf *o ~/Insight/exefiles/a5_apr
+	
+
