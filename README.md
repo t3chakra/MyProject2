@@ -3,7 +3,7 @@ The program calculate Vertex Cover set using SAT Solver in one thread. The it ru
 
 My code use SAT solver to find the minimum vertex cover. If you try more than 15 nodes, the SAT solver will be really slow, and might take more than 1 hour. YOu can try with both 64 and 32 bit version of the SAT solver.
 
-PLease find the Makefile in Librery folder Change your path in .c filles according to your computing environment. My Root folder is Insight. So I used Insight in path, please change your path accordingly.
+PLease find the Makefile in Librery folder Change your path in .c filles according to your computing environment. My Root folder is MyProject. So I used MyProject in path, please change your path accordingly.
 
 First make your exe files. Give the following commands:
 
